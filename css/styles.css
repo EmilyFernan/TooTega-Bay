@@ -1,0 +1,168 @@
+a {
+  color: #222831;
+}
+
+a:hover {
+  color: #f08a5d;
+}
+
+body {
+  color: #222831;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5.5rem;
+  margin: 50px auto 0 auto;
+  padding-top: 50px;
+  color: #222831;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  color: #222831;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  color: #222831;
+}
+
+p {
+  line-height: 2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Navigation bar */
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.nav-item {
+  color: #222831;
+  padding: 0 18px;
+}
+
+.nav-item:hover {
+  color: #f08a5d;
+}
+
+.icon {
+  color: #393e46;
+}
+
+.icon:hover {
+color: #f08a5d;
+}
+
+/* Photo and logo */
+
+.top-container {
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 200px;
+}
+
+/* New items */
+
+.carousel {
+  position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #f6f6f6;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Social media handles */
+
+.bottom-container {
+  background-color: #ffffff;
+  padding-top: 800px;
+  padding-bottom: 10px;
+}
+
+.footer-container {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.copyright-container {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* About */
+
+.about {
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Contact */
+
+.contact-message {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* Buttons */
+
+.btn {
+  box-shadow: inset 0 1px 0 0 #888888;
+  background: linear-gradient(to bottom, #888888 5%, #888888 100%);
+  background-color: #888888;
+  border-radius: 6px;
+  border: 1px solid #888888;
+  display: inline-block;
+  cursor: pointer;
+  color: #222831;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #888888;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #f0f0f0 5%, #f0f0f0 100%);
+  background-color: #f0f0f0;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: #222831;
+  font-size: 0.75rem;
+}
