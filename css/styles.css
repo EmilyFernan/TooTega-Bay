@@ -135,7 +135,14 @@ color: #f08a5d;
   text-align: justify;
 }
 
+.logo-container-about {
+  padding-top: 100px;
+}
+
 /* Contact */
+.contact {
+  padding: 20px;
+}
 
 .contact-message {
   width: 30%;
